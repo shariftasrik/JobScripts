@@ -140,8 +140,8 @@ This is the exact path a job listing takes, and the exact path a search request 
 | 17 | M6 | Docker Compose | Testing & Docs |
 | 18 | M6 | Error handling | Testing & Docs |
 | 19 | M6 | Pytest suite | Testing & Docs |
-| 20 | M7 | — (no sub-issues) | — |
-| 20 | M7 | — (no sub-issues) | — |
+| 20 | M7 | — (no sub-issues) | Infra |
+| 20 | M7 | — (no sub-issues) | Infra |
 
 ---
 
