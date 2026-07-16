@@ -117,6 +117,34 @@ This is the exact path a job listing takes, and the exact path a search request 
 
 ---
 
+## Quick-Reference: What Gets Created Where (Summary Table)
+
+| Issue | Milestone | Sub-issue A (Backend) | Sub-issue B |
+|---|---|---|---|
+| 1 | M1 | — (no sub-issues) | — |
+| 2 | M1 | User model + JWT | Testing & Docs |
+| 3 | M1 | Job model + migration | Testing & Docs |
+| 4 | M2 | RemoteOK fetcher | Testing & Docs |
+| 5 | M2 | Mongo raw storage | Testing & Docs |
+| 6 | M2 | Jobs CRUD | Testing & Docs |
+| 7 | M3 | OpenSearch setup | Testing & Docs |
+| 8 | M3 | Indexing pipeline | Testing & Docs |
+| 9 | M3 | /jobs/search | Testing & Docs |
+| 10 | M4 | Adzuna integration | Testing & Docs |
+| 11 | M4 | Generic Company Career-Page Scraper | Testing & Docs |
+| 12 | M4 | Bookmark API | **Frontend** (bookmark UI) |
+| 13 | M4 | CORS + response shape | **Frontend** (search UI) |
+| 14 | M5 | APScheduler | Testing & Docs |
+| 15 | M5 | Facet aggregations | **Frontend** (filter UI) |
+| 16 | M5 | Sync-status endpoint | Testing & Docs |
+| 17 | M6 | Docker Compose | Testing & Docs |
+| 18 | M6 | Error handling | Testing & Docs |
+| 19 | M6 | Pytest suite | Testing & Docs |
+| 20 | M7 | — (no sub-issues) | — |
+| 20 | M7 | — (no sub-issues) | — |
+
+---
+
 ## API Reference
 
 Full interactive docs are auto-generated at `/docs` (Swagger UI) once the server is running. Summary:
